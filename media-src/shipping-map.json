@@ -1,0 +1,184 @@
+{
+ "img/room-off.jpg": {
+  "source": "interior-living-night-01.jpg",
+  "author": "Annie Spratt (unsplash.com/@anniespratt)",
+  "platform": "Unsplash",
+  "sourcePage": "https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-fire-place-UaWBQiB-vfI",
+  "licence": "Unsplash License (free commercial use, no attribution required)",
+  "treatment": "lights-off version made by colour grading the same photo"
+ },
+ "img/room-on.jpg": {
+  "source": "interior-living-night-01.jpg",
+  "author": "Annie Spratt (unsplash.com/@anniespratt)",
+  "platform": "Unsplash",
+  "sourcePage": "https://unsplash.com/photos/a-living-room-filled-with-furniture-and-a-fire-place-UaWBQiB-vfI",
+  "licence": "Unsplash License (free commercial use, no attribution required)"
+ },
+ "img/dacha-snow.jpg": {
+  "source": "dacha-cabin-snow-03.jpg",
+  "author": "Sean C Davis (unsplash.com/@seancdavis)",
+  "platform": "Unsplash",
+  "sourcePage": "https://unsplash.com/photos/cozy-cabin-glowing-in-the-snowy-woods-at-night-EwwVAaxZ4DM",
+  "licence": "Unsplash License (free commercial use, no attribution required)"
+ },
+ "img/dacha-garden.jpg": {
+  "source": "garden-string-lights-01.jpg",
+  "author": "Steven Aguilar (unsplash.com/@eysteve)",
+  "platform": "Unsplash",
+  "sourcePage": "https://unsplash.com/photos/brown-wooden-house-with-string-lights-during-night-time-cxV3TgLi7AA",
+  "licence": "Unsplash License (free commercial use, no attribution required)"
+ },
+ "img/c-birdcage.jpg": {
+  "source": "floor-lamp-birdcage-01.jpg",
+  "author": "Grace Estrada (unsplash.com/@usermcleod1)",
+  "platform": "Unsplash",
+  "sourcePage": "https://unsplash.com/photos/birdcage-floor-lamp-and-leather-armchair-b753LuWFrb0",
+  "licence": "Unsplash License (free commercial use, no attribution required)"
+ },
+ "img/c-lantern.jpg": {
+  "source": "interior-paper-lantern-04.jpg",
+  "author": "Đào Việt Hoàng (unsplash.com/@dvhoang2106)",
+  "platform": "Unsplash",
+  "sourcePage": "https://unsplash.com/photos/a-lit-paper-lantern-hangs-indoors-illuminating-a-room-mpLQrA3u96A",
+  "licence": "Unsplash License (free commercial use, no attribution required)"
+ },
+ "img/c-pattern.jpg": {
+  "source": "shadow-sconce-pattern-01.jpg",
+  "author": "Viktor Forgacs (unsplash.com/@sonance)",
+  "platform": "Unsplash",
+  "sourcePage": "https://unsplash.com/photos/modern-wall-sconces-casting-light-patterns-on-wall-FXY1oLt-pO8",
+  "licence": "Unsplash License (free commercial use, no attribution required)"
+ },
+ "img/oka-smoke.jpg": {
+  "source": "pendant-globe-glass-01.jpg",
+  "author": "Leo_Visions (unsplash.com/@leo_visions_)",
+  "platform": "Unsplash",
+  "sourcePage": "https://unsplash.com/photos/a-single-glowing-orb-light-fixture-hangs-indoors-a2vaayxAP3Q",
+  "licence": "Unsplash License (free commercial use, no attribution required)"
+ },
+ "img/c-globes.jpg": {
+  "source": "table-lamp-brass-globes-02.jpg",
+  "author": "Jon Tyson (unsplash.com/@jontyson)",
+  "platform": "Unsplash",
+  "sourcePage": "https://unsplash.com/photos/three-globe-brass-lamp-on-table-FSs4G7pze10",
+  "licence": "Unsplash License (free commercial use, no attribution required)"
+ },
+ "img/hero-bulbs.jpg": {
+  "source": "hero-bulbs-cluster-05.jpg",
+  "author": "Declan Sun (unsplash.com/@declansun)",
+  "platform": "Unsplash",
+  "sourcePage": "https://unsplash.com/photos/many-hanging-light-bulbs-illuminated-with-warm-light-ZyvabPhOlSs",
+  "licence": "Unsplash License (free commercial use, no attribution required)"
+ },
+ "img/filament-poster.jpg": {
+  "source": "video-filament-on-01.mp4",
+  "author": "Tima Miroshnichenko",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/video/the-glowing-filament-of-an-incandescent-bulb-5647308/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "4.5-10.5 s of the 1080p source, 720x864 crop on the bulb, blacks crushed to true black for screen blending, ping-pong loop"
+ },
+ "video/filament.mp4": {
+  "source": "video-filament-on-01.mp4",
+  "author": "Tima Miroshnichenko",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/video/the-glowing-filament-of-an-incandescent-bulb-5647308/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "4.5-10.5 s of the 1080p source, 720x864 crop on the bulb, blacks crushed to true black for screen blending, ping-pong loop"
+ },
+ "video/dacha-dusk.mp4": {
+  "source": "video-country-house-dusk-01.mp4",
+  "author": "Yaroslav Shuraev",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/video/video-of-a-country-house-in-the-middle-of-the-wood-6183914/",
+  "licence": "Pexels License (free commercial use, no attribution required)"
+ },
+ "video/lamp-1920.mp4, video/lamp-m.mp4, img/lamp-dark.jpg, img/lamp-dark-m.jpg, img/lamp-lit.jpg": {
+  "source": "video-lamp-switch-on-01.mp4",
+  "author": "Jakub Bukowski",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/video/hand-switching-on-a-modern-table-lamp-35999374/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "all-intra encode (x264 keyint=1) for frame-accurate scroll scrubbing"
+ },
+ "video/msta-1920.mp4, video/msta-m.mp4, img/msta-poster.jpg, img/msta-poster-m.jpg": {
+  "source": "scrub/scrub-chandelier-crystal-dark-01.mp4",
+  "author": "IgorKocka (pixabay.com/users/igorkocka-19859205)",
+  "platform": "Pixabay",
+  "sourcePage": "https://pixabay.com/videos/chandelier-crystal-light-308207/",
+  "licence": "Pixabay Content License (free commercial use, no attribution required)",
+  "treatment": "warm grade (colortemperature 3400 K), ping-pong loop; phone version is a centre 4:3 crop of the 4K source"
+ },
+ "img/dusk/lit.jpg, img/dusk/off.jpg, img/dusk/w1.webp, img/dusk/w2.webp, img/dusk/w3.webp, img/dusk/porch.webp": {
+  "source": "video-country-house-dusk-01.mp4",
+  "author": "Yaroslav Shuraev",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/video/video-of-a-country-house-in-the-middle-of-the-wood-6183914/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "first frame of the film; off.jpg has the lit windows and lamps graded down with a little day left in the sky, the .webp files are each group of lights cut out with soft alpha"
+ },
+ "img/w-oka.jpg, img/off/w-oka.jpg": {
+  "source": "cottonbro-workshop/5094552.jpg",
+  "author": "cottonbro studio (pexels.com/@cottonbro)",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/photo/5094552/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "one photoshoot in a vintage lighting workshop; cropped to 4:5 on the fixture; off/ is a dim cool grade of the same frame"
+ },
+ "img/w-ruza.jpg, img/off/w-ruza.jpg": {
+  "source": "cottonbro-workshop/5094571.jpg",
+  "author": "cottonbro studio (pexels.com/@cottonbro)",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/photo/5094571/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "one photoshoot in a vintage lighting workshop; cropped to 4:5 on the fixture; off/ is a dim cool grade of the same frame"
+ },
+ "img/w-nerl.jpg, img/off/w-nerl.jpg": {
+  "source": "cottonbro-workshop/5094550.jpg",
+  "author": "cottonbro studio (pexels.com/@cottonbro)",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/photo/5094550/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "one photoshoot in a vintage lighting workshop; cropped to 4:5 on the fixture; off/ is a dim cool grade of the same frame"
+ },
+ "img/w-pakhra.jpg, img/off/w-pakhra.jpg": {
+  "source": "cottonbro-workshop/5094556.jpg",
+  "author": "cottonbro studio (pexels.com/@cottonbro)",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/photo/5094556/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "one photoshoot in a vintage lighting workshop; cropped to 4:5 on the fixture; off/ is a dim cool grade of the same frame"
+ },
+ "img/w-istra.jpg, img/off/w-istra.jpg": {
+  "source": "cottonbro-workshop/5094567.jpg",
+  "author": "cottonbro studio (pexels.com/@cottonbro)",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/photo/5094567/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "one photoshoot in a vintage lighting workshop; cropped to 4:5 on the fixture; off/ is a dim cool grade of the same frame"
+ },
+ "img/w-sestra.jpg, img/off/w-sestra.jpg": {
+  "source": "cottonbro-workshop/5094576.jpg",
+  "author": "cottonbro studio (pexels.com/@cottonbro)",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/photo/5094576/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "one photoshoot in a vintage lighting workshop; cropped to 4:5 on the fixture; off/ is a dim cool grade of the same frame"
+ },
+ "img/w-vyazma.jpg, img/off/w-vyazma.jpg": {
+  "source": "cottonbro-workshop/5094573.jpg",
+  "author": "cottonbro studio (pexels.com/@cottonbro)",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/photo/5094573/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "one photoshoot in a vintage lighting workshop; cropped to 4:5 on the fixture; off/ is a dim cool grade of the same frame"
+ },
+ "img/w-yauza.jpg, img/off/w-yauza.jpg": {
+  "source": "cottonbro-workshop/5094574.jpg",
+  "author": "cottonbro studio (pexels.com/@cottonbro)",
+  "platform": "Pexels",
+  "sourcePage": "https://www.pexels.com/photo/5094574/",
+  "licence": "Pexels License (free commercial use, no attribution required)",
+  "treatment": "one photoshoot in a vintage lighting workshop; cropped to 4:5 on the fixture; off/ is a dim cool grade of the same frame"
+ }
+}

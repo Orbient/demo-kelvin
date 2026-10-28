@@ -1,0 +1,492 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-28T18:33:10+00:00",
+  "title": "Design System: Кельвин",
+  "extensions": {
+    "colorMeta": {
+      "soot": {
+        "role": "neutral",
+        "displayName": "Soot",
+        "canonical": "oklch(15.5% 0.003 67.6)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242423",
+          "#403f3f",
+          "#5e5d5c",
+          "#7e7d7b",
+          "#9f9e9d",
+          "#c5c4c3",
+          "#efeeed"
+        ]
+      },
+      "soot-raised": {
+        "role": "neutral",
+        "displayName": "Soot Raised",
+        "canonical": "oklch(21.1% 0.005 67.6)",
+        "tonalRamp": [
+          "#0c0b0a",
+          "#252422",
+          "#413f3e",
+          "#5f5d5b",
+          "#7f7d7a",
+          "#a09e9b",
+          "#c6c4c1",
+          "#f0eeec"
+        ]
+      },
+      "soot-deep": {
+        "role": "neutral",
+        "displayName": "Soot Deep",
+        "canonical": "oklch(17.5% 0.005 67.5)",
+        "tonalRamp": [
+          "#0c0b0a",
+          "#262523",
+          "#434240",
+          "#63615e",
+          "#84827f",
+          "#a7a4a2",
+          "#cac9c7",
+          "#efeeed"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Lamp-shade Ink",
+        "canonical": "oklch(94.0% 0.004 91.4)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242423",
+          "#40403e",
+          "#5e5d5b",
+          "#7e7d7a",
+          "#9f9e9c",
+          "#c5c4c2",
+          "#efeeed"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Ash",
+        "canonical": "oklch(69.8% 0.016 80.7)",
+        "tonalRamp": [
+          "#0d0b08",
+          "#26241f",
+          "#433f39",
+          "#625d55",
+          "#827c73",
+          "#a39e95",
+          "#c8c3bc",
+          "#f2eee8"
+        ]
+      },
+      "filament": {
+        "role": "primary",
+        "displayName": "Filament",
+        "canonical": "oklch(90.3% 0.083 75.9)",
+        "tonalRamp": [
+          "#140800",
+          "#322004",
+          "#523b17",
+          "#75582c",
+          "#997643",
+          "#b9996a",
+          "#dcbf98",
+          "#ffebcb"
+        ]
+      },
+      "kelvin-2700": {
+        "role": "secondary",
+        "displayName": "2700 K",
+        "canonical": "oklch(81.0% 0.149 68.4)",
+        "tonalRamp": [
+          "#1d0300",
+          "#3f1800",
+          "#633100",
+          "#8b4c00",
+          "#b46900",
+          "#d38d35",
+          "#f3b773",
+          "#ffe4af"
+        ]
+      },
+      "plaster-muted": {
+        "role": "neutral",
+        "displayName": "Plaster Muted (request)",
+        "canonical": "oklch(74.4% 0.019 78.2)",
+        "tonalRamp": [
+          "#0d0b07",
+          "#28241f",
+          "#464139",
+          "#676056",
+          "#888177",
+          "#aaa49b",
+          "#cdc8c1",
+          "#f2eee8"
+        ]
+      },
+      "dusk": {
+        "role": "neutral",
+        "displayName": "Dusk",
+        "canonical": "oklch(21.4% 0.012 167.3)",
+        "tonalRamp": [
+          "#090c0b",
+          "#212523",
+          "#3c413f",
+          "#58605c",
+          "#77807c",
+          "#99a19d",
+          "#bfc6c3",
+          "#eaf0ed"
+        ]
+      },
+      "night": {
+        "role": "neutral",
+        "displayName": "Night",
+        "canonical": "oklch(13.3% 0.003 246.1)",
+        "tonalRamp": [
+          "#090b0d",
+          "#1f2225",
+          "#3a3e41",
+          "#585b5f",
+          "#777b7e",
+          "#989c9f",
+          "#bec1c5",
+          "#eceff1"
+        ]
+      },
+      "error": {
+        "role": "error",
+        "displayName": "Error",
+        "canonical": "oklch(73.2% 0.165 28.3)",
+        "tonalRamp": [
+          "#230000",
+          "#4b0404",
+          "#771b16",
+          "#a6332b",
+          "#ce584b",
+          "#ea8477",
+          "#ffb0a4",
+          "#ffdcd2"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "monument": {
+        "displayName": "Monument",
+        "purpose": "The name set whole across the hero foot and again in the footer, drawn as filament (FilamentText SVG: wire, stuttering glow, fill); follows ?brand=."
+      },
+      "display": {
+        "displayName": "Display",
+        "purpose": "The featured piece's name in its scene («Мста»), the product sheet's name; scroll beats and figures."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Chapter headings, process step lines, scene and sheet prices, the sent-request title, the made-by heading, the 404 line."
+      },
+      "statement": {
+        "displayName": "Statement",
+        "purpose": "One-sentence declarations: hero close, dacha overlay; the manifesto at its own larger clamp."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Spec values, vitrine lamp names and counter, contacts, footer places, process counters, header wordmark."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "All running text, 34-46ch measure."
+      },
+      "action": {
+        "displayName": "Action",
+        "purpose": "Text-link calls to action; buttons use Onest 500 at body size; header call, nav, dimmer, language switch and chips at label size."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels, captions, term labels, legal, the menu toggle; sentence case."
+      }
+    },
+    "shadows": [
+      {
+        "name": "pane-hairline",
+        "value": "inset 0 0 0 1px rgba(255, 216, 161, 0.12)",
+        "purpose": "The warm edge of every flat pane, the header bar, the map card and the try-on bar; a border, not elevation."
+      },
+      {
+        "name": "focus-ring",
+        "value": "outline 2px solid #ffad47, offset 3px; box-shadow 0 0 0 6px rgba(255, 173, 71, 0.18)",
+        "purpose": "Keyboard focus only (src/polish.css); round on pills."
+      },
+      {
+        "name": "input-focus-ring",
+        "value": "0 0 0 2px #ffad47",
+        "purpose": "Input focus ring on the dark form."
+      },
+      {
+        "name": "error-ring",
+        "value": "0 0 0 2px #ff7a6b",
+        "purpose": "Invalid-field ring."
+      },
+      {
+        "name": "bulb-glow",
+        "value": "0 0 0 4px rgba(255, 216, 161, 0.12), 0 0 22px 4px rgba(255, 173, 71, 0.55)",
+        "purpose": "A lit bulb on the process wire: drawn light, not elevation."
+      },
+      {
+        "name": "chandelier-scrim",
+        "value": "radial-gradient(130% 80% at 0% 100%, rgba(8, 6, 4, 0.8), rgba(8, 6, 4, 0) 72%)",
+        "purpose": "The one darkening gradient on footage: under the chandelier's text, off on phones."
+      },
+      {
+        "name": "veil",
+        "value": "fixed #000 layer, opacity up to 0.45 at section seams",
+        "purpose": "Soft dimming between reading sections (useVeil in App.jsx); skipped with reduced motion."
+      },
+      {
+        "name": "drawn-light",
+        "value": "StarBorder, FilamentText, logo filament, DappledLight, process wire and bulbs, map halos, candela curve, try-on glow, dark-room torch, LightRays, SideRays, 404 light pool",
+        "purpose": "Light in its named places, in filament and 2700 K. WebGL ones (LightRays, SideRays, DappledLight) mount only through Lazy.jsx."
+      }
+    ],
+    "motion": [
+      {
+        "name": "lux",
+        "value": "cubic-bezier(0.35, 0, 0, 1)",
+        "purpose": "Type and lines: masked word rise (1.1s, 0.05s stagger), letter roll (520ms, 16ms stagger), CTA line draw-back (700ms), header bar settle (700ms), sheet words (0.9s). GSAP CustomEase 'lux', CSS --ease-lux."
+      },
+      {
+        "name": "silk",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Pictures, pills and flights: product-sheet FLIP flight (0.95s), nav pill slide (0.6s), vitrine frame grow (900ms), process photo open (700ms), switch knob slide (420ms), press scale. GSAP CustomEase 'silk', CSS --ease-out."
+      },
+      {
+        "name": "surface-lines",
+        "value": "power1.out 1.8s, opacity 0.12 to 1, 0.1s stagger; block y 50px power2.out 2s",
+        "purpose": "Running text arrival."
+      },
+      {
+        "name": "filament-draw",
+        "value": "wire strokeDashoffset 1.5s power2.inOut, 0.09s stagger; halo stutter from 0.55s; fill 1.1s power2.out from 1.35s",
+        "purpose": "FilamentText: the hero name (after the loader), footer name and 404 number (in view)."
+      },
+      {
+        "name": "catch",
+        "value": "keyframes 0 / 0.7 / 0.15 / 0.9 / 1 opacity, 700 to 900ms linear",
+        "purpose": "A lamp coming on: vitrine lit photo, process bulbs, map halos."
+      },
+      {
+        "name": "veil",
+        "value": "opacity 0.45 * smoothstep over 28% of the viewport around each seam",
+        "purpose": "Dimming between rooms, one fixed layer moved by opacity alone."
+      },
+      {
+        "name": "odometer",
+        "value": "cubic-bezier(0.87, 0, 0.13, 1) 700ms, 70ms per digit",
+        "purpose": "Loader kelvin readout drums only."
+      },
+      {
+        "name": "smooth-scroll",
+        "value": "Lenis lerp 0.07",
+        "purpose": "Wheel smoothing on fine pointers; off for touch and reduced motion."
+      },
+      {
+        "name": "light-effects",
+        "value": "StarBorder comet 5s loop; LightRays speed 0.6; SideRays speed 1.2; DappledLight shader at half resolution",
+        "purpose": "Continuous motion of drawn light; WebGL skipped with reduced motion (Lazy never mounts)."
+      },
+      {
+        "name": "media-playback",
+        "value": "playWhileOnScreen (src/lib/media.js): one video at a time, off-screen videos release their decoder",
+        "purpose": "Every video goes through it; Chrome drops the page to 30 Hz for good if two videos ever play together. The hero lamp film (all-intra lamp-1920.mp4 / lamp-m.mp4) is a scroll scrub registered with play: false."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "header-nav",
+        "value": "1240px"
+      },
+      {
+        "name": "tablet",
+        "value": "1023px"
+      },
+      {
+        "name": "sheet",
+        "value": "900px"
+      },
+      {
+        "name": "stack",
+        "value": "899px"
+      },
+      {
+        "name": "phone",
+        "value": "767px"
+      },
+      {
+        "name": "small-phone",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Hero Switch",
+      "kind": "button",
+      "refersTo": "switch-cta",
+      "description": "The one filled call in the hero: a 2700 K pill whose knob slides and lights.",
+      "html": "<button class=\"ds-switch-cta\" type=\"button\" role=\"switch\" aria-checked=\"false\"><span class=\"ds-knob\"><span></span></span>Включить свет</button>",
+      "css": ".ds-switch-cta{display:inline-flex;align-items:center;gap:14px;min-height:56px;padding:8px 26px 8px 8px;border:0;border-radius:999px;cursor:pointer;background:var(--accent,#ffad47);color:var(--accent-ink,#0d0c0b);font:500 1.15rem/1 Onest,system-ui,sans-serif;transition:background-color 220ms ease,transform 160ms cubic-bezier(.16,1,.3,1)}.ds-knob{width:64px;height:40px;border-radius:999px;background:rgba(13,12,11,.9);padding:4px;display:flex}.ds-knob span{width:32px;height:32px;border-radius:50%;background:#6f665a;transition:transform 420ms cubic-bezier(.16,1,.3,1),background-color 300ms ease}.ds-switch-cta:hover .ds-knob span,.ds-switch-cta:focus-visible .ds-knob span{transform:translateX(24px);background:var(--lit,#ffd8a1)}.ds-switch-cta:focus-visible{outline:2px solid #ffad47;outline-offset:3px}.ds-switch-cta:active{transform:scale(.97)}"
+    },
+    {
+      "name": "Header",
+      "kind": "nav",
+      "refersTo": "header-bar",
+      "description": "The flat soot bar (not glass) with the mark, the in-bar section nav whose filament pill follows the current section, the RU/EN switch, the Kelvin dimmer and the StarBorder call.",
+      "html": "<header class=\"ds-header\"><a class=\"ds-mark\" href=\"#\"><svg class=\"ds-logo\" viewBox=\"0 0 32 40\" aria-hidden=\"true\"><path d=\"M10.5 26.5C4.6 22 3.2 13.6 7.2 8.2 11.4 2.4 20.6 2.4 24.8 8.2 28.8 13.6 27.4 22 21.5 26.5L21 30.5H11L10.5 26.5Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" opacity=\".55\"/><path d=\"M11.5 33h9M12.5 35.6h7M14.2 38.2h3.6\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-linecap=\"round\" opacity=\".55\"/><text x=\"16\" y=\"21.2\" text-anchor=\"middle\" font-family=\"Oranienbaum,serif\" font-size=\"15.5\" fill=\"none\" stroke=\"#ffd8a1\" stroke-width=\".9\">К</text></svg>Кельвин</a><nav class=\"ds-nav\"><a href=\"#\" aria-current=\"true\">Коллекция</a><a href=\"#\">Тёмная комната</a><a href=\"#\">Дача</a></nav><div class=\"ds-right\"><button class=\"ds-lang\" type=\"button\">EN</button><label class=\"ds-dial\"><span class=\"ds-dial-dot\"></span><input type=\"range\" min=\"1800\" max=\"4000\" step=\"100\" value=\"2700\" aria-label=\"Оттенок света\"><output>2700 K</output></label><a class=\"ds-hdr-cta\" href=\"#\"><span>Подобрать свет</span></a></div></header>",
+      "css": ".ds-header{display:flex;align-items:center;gap:20px;height:56px;padding:0 8px 0 24px;border-radius:999px;background:rgba(13,12,11,.86);box-shadow:inset 0 0 0 1px rgba(255,216,161,.12);color:#ecebe8}.ds-mark{display:inline-flex;align-items:center;gap:10px;font:400 1.6rem/1 Oranienbaum,'Times New Roman',serif;color:#ecebe8;text-decoration:none}.ds-logo{width:.95em;overflow:visible}.ds-nav{display:flex;gap:2px;margin-right:auto}.ds-nav a{display:inline-flex;align-items:center;min-height:40px;padding:0 13px;border-radius:999px;color:#ecebe8;opacity:.72;text-decoration:none;font:500 .875rem/1 Onest,system-ui,sans-serif;transition:opacity 300ms ease,color 300ms ease,background-color 600ms cubic-bezier(.16,1,.3,1)}.ds-nav a:hover{opacity:1}.ds-nav a[aria-current]{opacity:1;color:#ffd8a1;background:rgba(255,216,161,.12);box-shadow:inset 0 0 0 1px rgba(255,216,161,.18)}.ds-right{display:flex;align-items:center;gap:12px}.ds-lang,.ds-dial{height:40px;border:0;border-radius:999px;background:rgba(236,235,232,.06);color:#ecebe8;font:500 .875rem/1 Onest,system-ui,sans-serif}.ds-lang{min-width:40px;padding:0 12px;letter-spacing:.04em;cursor:pointer;transition:background-color 200ms ease,color 200ms ease}.ds-lang:hover{background:rgba(236,235,232,.12);color:#ffd8a1}.ds-dial{display:inline-flex;align-items:center;gap:10px;padding:0 14px 0 12px}.ds-dial-dot{width:10px;height:10px;border-radius:50%;background:#ffb46b;box-shadow:0 0 12px #ffb46b}.ds-dial input{width:84px;accent-color:#ecebe8}.ds-dial output{font-variant-numeric:tabular-nums}.ds-hdr-cta{position:relative;display:inline-flex;padding:10px 20px;border-radius:999px;overflow:hidden;isolation:isolate;color:#ecebe8;text-decoration:none;font:500 .875rem/1 Onest,system-ui,sans-serif}.ds-hdr-cta::before{content:\"\";position:absolute;inset:-100%;z-index:-2;background:conic-gradient(from 0deg,transparent 0 70%,#ffd8a1 85%,#ffad47 92%,transparent 100%);animation:ds-comet 5s linear infinite}.ds-hdr-cta::after{content:\"\";position:absolute;inset:1px;z-index:-1;border-radius:999px;background:#0d0c0b;box-shadow:0 0 0 1px rgba(255,216,161,.18)}@keyframes ds-comet{to{transform:rotate(1turn)}}.ds-header :is(a,button):focus-visible,.ds-dial:focus-within{outline:2px solid #ffad47;outline-offset:3px;border-radius:999px;box-shadow:0 0 0 6px rgba(255,173,71,.18)}@media (prefers-reduced-motion:reduce){.ds-hdr-cta::before{animation:none}}"
+    },
+    {
+      "name": "Text-link CTA",
+      "kind": "custom",
+      "refersTo": "cta-link",
+      "description": "The default way to ask: words with a drawn line and an arrow, in filament.",
+      "html": "<div style=\"background:#0d0c0b;padding:32px\"><a class=\"ds-cta-link\" href=\"#\">Заказать «Мсту»<span class=\"ds-arrow\" aria-hidden=\"true\">→</span></a></div>",
+      "css": ".ds-cta-link{position:relative;display:inline-flex;align-items:center;gap:14px;padding:6px 0 10px;color:var(--lit,#ffd8a1);text-decoration:none;font:500 clamp(1.375rem,1.2rem + .8vw,2.25rem)/1.2 Onest,system-ui,sans-serif}.ds-cta-link::after{content:\"\";position:absolute;left:0;right:0;bottom:0;height:2px;background:currentColor;transform-origin:0 50%;transition:transform 700ms cubic-bezier(.35,0,0,1)}.ds-cta-link:hover::after,.ds-cta-link:focus-visible::after{transform:scaleX(.3)}.ds-arrow{transition:transform 600ms cubic-bezier(.35,0,0,1)}.ds-cta-link:hover .ds-arrow,.ds-cta-link:focus-visible .ds-arrow{transform:translateX(6px)}.ds-cta-link:focus-visible{outline:2px solid #ffad47;outline-offset:3px}"
+    },
+    {
+      "name": "Pane",
+      "kind": "card",
+      "refersTo": "pane",
+      "description": "The one flat panel (src/components/Pane.jsx): soot at 88% with a 12% filament hairline, laid over films and photographs; it replaced the liquid glass.",
+      "html": "<div style=\"background:#000;padding:32px\"><div class=\"ds-pane\"><dl class=\"ds-spec\"><div><dt>Хрусталь</dt><dd>48 подвесок</dd></div><div><dt>Свет</dt><dd>2700 K, диммер</dd></div></dl><p class=\"ds-price\">от 186 000 ₽</p></div></div>",
+      "css": ".ds-pane{display:grid;gap:28px;justify-items:start;max-width:520px;padding:32px 36px;border-radius:28px;background:rgba(18,16,14,.88);box-shadow:inset 0 0 0 1px rgba(255,216,161,.12);color:#ecebe8}.ds-spec{display:flex;flex-wrap:wrap;gap:16px 48px;margin:0}.ds-spec dt{font:400 .875rem/1.4 Onest,system-ui,sans-serif;opacity:.72;margin-bottom:6px}.ds-spec dd{margin:0;font:400 clamp(1.375rem,1.2rem + .8vw,2.25rem)/1.15 Oranienbaum,'Times New Roman',serif}.ds-price{margin:0;font:400 clamp(2.5rem,1.4rem + 4.4vw,5.5rem)/1 Oranienbaum,'Times New Roman',serif;color:#ffd8a1}"
+    },
+    {
+      "name": "Room Source Chip",
+      "kind": "chip",
+      "refersTo": "room-chip",
+      "description": "Dark-room light sources: a lit source turns filament at 18%; «Весь свет» rests on soot raised and fills 2700 K when everything is on.",
+      "html": "<div style=\"background:#0d0c0b;padding:24px;display:flex;flex-wrap:wrap;gap:8px\"><button class=\"ds-rchip ds-rchip--all\" type=\"button\" aria-pressed=\"false\" onclick=\"this.setAttribute('aria-pressed',this.getAttribute('aria-pressed')!=='true')\"><span class=\"ds-pip\"></span>Весь свет</button><button class=\"ds-rchip\" type=\"button\" aria-pressed=\"true\" onclick=\"this.setAttribute('aria-pressed',this.getAttribute('aria-pressed')!=='true')\"><span class=\"ds-dot\"></span>Настольная лампа</button><button class=\"ds-rchip\" type=\"button\" aria-pressed=\"false\" onclick=\"this.setAttribute('aria-pressed',this.getAttribute('aria-pressed')!=='true')\"><span class=\"ds-dot\"></span>Огонь в печи</button></div>",
+      "css": ".ds-rchip{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 20px 0 16px;border:0;border-radius:999px;cursor:pointer;background:rgba(236,235,232,.08);color:#ecebe8;font:500 .875rem/1 Onest,system-ui,sans-serif;transition:background-color 250ms ease,color 250ms ease}.ds-rchip:hover{background:rgba(236,235,232,.14)}.ds-rchip[aria-pressed=\"true\"]{background:rgba(255,216,161,.18);color:#ffd8a1}.ds-dot{width:8px;height:8px;border-radius:50%;background:rgba(236,235,232,.35);transition:background-color 250ms ease}.ds-rchip[aria-pressed=\"true\"] .ds-dot{background:#ffd8a1}.ds-rchip--all{background:#1a1816}.ds-rchip--all[aria-pressed=\"true\"]{background:#ffad47;color:#0d0c0b}.ds-pip{position:relative;width:36px;height:20px;border-radius:999px;background:#3a352f;transition:background-color 240ms ease}.ds-pip::after{content:\"\";position:absolute;top:3px;left:3px;width:14px;height:14px;border-radius:50%;background:#ecebe8;transition:transform 240ms cubic-bezier(.16,1,.3,1),background-color 240ms ease}.ds-rchip--all[aria-pressed=\"true\"] .ds-pip{background:#0d0c0b}.ds-rchip--all[aria-pressed=\"true\"] .ds-pip::after{transform:translateX(16px);background:#ffad47}.ds-rchip:focus-visible{outline:2px solid #ffad47;outline-offset:3px;box-shadow:0 0 0 6px rgba(255,173,71,.18)}"
+    },
+    {
+      "name": "Sheet Kelvin Chips",
+      "kind": "chip",
+      "refersTo": "sheet-chip",
+      "description": "The product sheet's colour-temperature strip on a pane over the photograph; the chosen shade is solid filament and tints the photo.",
+      "html": "<div style=\"background:#000;padding:32px\"><div class=\"ds-kstrip\" role=\"group\"><span class=\"ds-klabel\">Оттенок</span><button class=\"ds-schip\" type=\"button\" aria-pressed=\"false\">2200 K</button><button class=\"ds-schip\" type=\"button\" aria-pressed=\"true\">2700 K</button><button class=\"ds-schip\" type=\"button\" aria-pressed=\"false\">3000 K</button></div></div>",
+      "css": ".ds-kstrip{display:inline-flex;align-items:center;gap:6px;padding:6px;border-radius:999px;background:rgba(18,16,14,.88);box-shadow:inset 0 0 0 1px rgba(255,216,161,.12)}.ds-klabel{padding:0 10px 0 14px;font:400 .875rem/1 Onest,system-ui,sans-serif;color:#a39d93}.ds-schip{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:0;border-radius:999px;cursor:pointer;white-space:nowrap;background:rgba(236,235,232,.08);color:#ecebe8;font:500 .875rem/1 Onest,system-ui,sans-serif;transition:background-color 250ms ease,color 250ms ease}.ds-schip:hover{background:rgba(236,235,232,.16)}.ds-schip[aria-pressed=\"true\"]{background:#ffd8a1;color:#0d0c0b}.ds-schip:focus-visible{outline:2px solid #ffad47;outline-offset:3px;box-shadow:0 0 0 6px rgba(255,173,71,.18)}"
+    },
+    {
+      "name": "Form Next",
+      "kind": "button",
+      "refersTo": "form-next",
+      "description": "Primary form step on the dark form: a 2700 K pill; «Назад» beside it is a translucent ink pill.",
+      "html": "<div style=\"background:#0d0c0b;padding:24px;display:flex;gap:10px\"><button class=\"ds-form-back\" type=\"button\">Назад</button><button class=\"ds-form-next\" type=\"button\">Дальше</button></div>",
+      "css": ".ds-form-next,.ds-form-back{min-height:52px;padding:0 26px;border:0;border-radius:999px;font:500 1.15rem/1 Onest,system-ui,sans-serif;cursor:pointer;transition:background-color 200ms ease,transform 140ms cubic-bezier(.16,1,.3,1)}.ds-form-next{background:var(--accent,#ffad47);color:var(--accent-ink,#0d0c0b)}.ds-form-next:hover{background:#ffc06e}.ds-form-back{background:rgba(236,235,232,.08);color:var(--ink,#ecebe8)}.ds-form-back:hover{background:rgba(236,235,232,.14)}.ds-form-next:active,.ds-form-back:active{transform:scale(.97)}.ds-form-next:focus-visible,.ds-form-back:focus-visible{outline:2px solid #ffad47;outline-offset:3px}"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Single or multi choice on the dark form; selected is a 2700 K fill with soot text.",
+      "html": "<div style=\"background:#0d0c0b;padding:24px;display:flex;gap:8px\"><button class=\"ds-chip\" aria-pressed=\"true\" onclick=\"this.setAttribute('aria-pressed',this.getAttribute('aria-pressed')!=='true')\">Квартира</button><button class=\"ds-chip\" aria-pressed=\"false\" onclick=\"this.setAttribute('aria-pressed',this.getAttribute('aria-pressed')!=='true')\">Дача</button></div>",
+      "css": ".ds-chip{min-height:44px;padding:0 18px;border:0;border-radius:999px;background:rgba(236,235,232,.07);color:#ecebe8;font:400 1.15rem/1 Onest,system-ui,sans-serif;cursor:pointer;transition:background-color 200ms ease,color 200ms ease,transform 140ms cubic-bezier(.16,1,.3,1)}.ds-chip:hover{background:rgba(236,235,232,.13)}.ds-chip:active{transform:scale(.96)}.ds-chip[aria-pressed=\"true\"]{background:#ffad47;color:#0d0c0b}.ds-chip:focus-visible{outline:2px solid #ffad47;outline-offset:3px}"
+    },
+    {
+      "name": "Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Strokeless field on the dark form; lifts with a 2700 K ring on focus.",
+      "html": "<div style=\"background:#0d0c0b;padding:24px;display:grid;gap:10px;width:320px\"><span class=\"ds-label\">Как вас зовут</span><input class=\"ds-input\" placeholder=\"Анна\"></div>",
+      "css": ".ds-label{font:400 .85rem/1.4 Onest,system-ui,sans-serif;color:#b3ab9f}.ds-input{width:100%;min-height:52px;padding:0 18px;border:0;border-radius:14px;background:rgba(236,235,232,.07);color:#ecebe8;font:400 1.15rem/1.3 Onest,system-ui,sans-serif;transition:background-color 200ms ease,box-shadow 200ms ease}.ds-input::placeholder{color:#7d766c}.ds-input:focus{outline:none;background:rgba(236,235,232,.1);box-shadow:0 0 0 2px #ffad47}.ds-input[aria-invalid=\"true\"]{box-shadow:0 0 0 2px #ff7a6b}"
+    },
+    {
+      "name": "Vitrine Card",
+      "kind": "custom",
+      "refersTo": "vitrine-frame",
+      "description": "A lamp standing in the dark: unlit at 0.9 scale with its name in ash; the lamp in the middle grows, catches with a flicker and its name turns filament.",
+      "html": "<div style=\"background:#0d0c0b;padding:32px;display:flex;gap:24px\"><div class=\"ds-vt\"><span class=\"ds-vt-frame\"></span><span class=\"ds-vt-name\">Ока, подвес</span><span class=\"ds-vt-meta\">белая эмаль, от 18 000 ₽</span></div><div class=\"ds-vt\" data-lit><span class=\"ds-vt-frame\"></span><span class=\"ds-vt-name\">Нерль, подвес</span><span class=\"ds-vt-meta\">жёлтая эмаль, от 21 000 ₽</span></div></div>",
+      "css": ".ds-vt{display:grid;gap:10px;width:200px;cursor:pointer}.ds-vt-frame{display:block;aspect-ratio:4/5;border-radius:20px;background:radial-gradient(40% 30% at 50% 40%,rgba(255,173,71,0),transparent),#050403;transform:scale(.9);transition:transform 900ms cubic-bezier(.16,1,.3,1),background-color 700ms ease}.ds-vt[data-lit] .ds-vt-frame,.ds-vt:hover .ds-vt-frame{transform:none;background:radial-gradient(40% 30% at 50% 40%,rgba(255,216,161,.55),transparent 70%),#050403;animation:ds-catch 900ms linear}.ds-vt-name{font:400 clamp(1.375rem,1.2rem + .8vw,2.25rem)/1.1 Oranienbaum,'Times New Roman',serif;color:#a39d93;transition:color 500ms ease}.ds-vt-meta{font:400 .875rem/1.4 Onest,system-ui,sans-serif;color:#a39d93;opacity:0;transition:opacity 500ms ease}.ds-vt[data-lit] .ds-vt-name,.ds-vt:hover .ds-vt-name{color:#ffd8a1}.ds-vt[data-lit] .ds-vt-meta,.ds-vt:hover .ds-vt-meta{opacity:1}@keyframes ds-catch{0%{opacity:.4}8%{opacity:.9}14%{opacity:.5}22%{opacity:1}100%{opacity:1}}@media (prefers-reduced-motion:reduce){.ds-vt-frame{transition:none;animation:none!important}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Dark Room, Switched On",
+    "overview": "**Creative North Star: \"The Dark Room, Switched On\"**\n\nThe page is a dark room and the visitor's scroll is the hand on the switch. Everything rests on soot black, from the first screen to the footer, the request form and the menu included; light arrives through footage, photographs, one warm filament colour that marks what is lit (the name, the lamp names, the prices, the readouts, whatever is switched on) and drawn light placed where a lamp would throw it. Chapters are told apart by the chapter gap, the cinematic black of the scenes, the dusk-green ground of the dacha and the night ground of the map, and by one veil of black that dims softly as each seam between rooms crosses the middle of the screen.\n\nType works at two extremes. Oranienbaum, a narrow, sharp Cyrillic display serif, sets the name as a monument across the full width and every heading at large scale; Onest carries everything that is read or pressed. The name itself is drawn as filament: a glowing wire traces each letter, the glow stutters as the coil catches, then the letters fill with warm light. Surfaces are flat fills with soft corners (the owner rejects square buttons): pill controls and flat panes (soot at 88% with a 1px warm hairline) laid over the films and photographs. There is no glass and no backdrop blur: nothing behind a panel is re-filtered while the page scrolls.\n\nThe visitor can hold the light themselves. A dimmer in the header sets the colour temperature of the whole page (1800 to 4000 K, a multiply layer, off at 2700 K); the dark room switches four sources on its photograph; the product sheet re-tints its photograph in three shades and lets the lamp be tried on a photo of the visitor's own room. The page speaks Russian or English and can wear the name of the company it was sent to (`?brand=`): the hero, header, footer, tab title and the mark's filament initial all follow.\n\nMotion is the system's second material. Two curves govern it, and each kind of content arrives its own way, once: words tip up out of a masked line, running text surfaces line by line, labels roll letter by letter, the name draws as filament, lamps catch with a flicker. Scrubbed and held scenes (the switch-on room, the chandelier, the vitrine row and the process wire on desktop, the dusk film) are pinned to scroll.",
+    "keyCharacteristics": [
+      "Soot-black ground on every chapter (dusk for the dacha, night for the map); light carried by footage, the filament colour and drawn light in its named places.",
+      "Oranienbaum at monument scale against Onest text; two weights of Onest only (400, 500).",
+      "Chapters told apart by the chapter gap, cinematic black, the dusk and night fields and the veil that dims at each seam.",
+      "Pill controls and flat 20 to 28px panes with a warm hairline; no glass, no backdrop blur.",
+      "Calls to action in the story are words with a drawn line and an arrow; filled controls are reserved for switches, selections and sending.",
+      "The visitor holds the light: a page-wide Kelvin dimmer, switchable sources in the dark room, tints and try-on in the product sheet.",
+      "One arrival per kind of content, on the lux and silk curves."
+    ],
+    "rules": [
+      {
+        "name": "The Lit Thing Rule",
+        "body": "Filament marks what is lit: the name, lamp names, prices, readouts, calls to action, lit points and whatever the visitor has switched on (as a 12 to 18% tint, or solid on a chosen colour temperature). It is never a resting background; as a line it appears only as the 10 to 12% hairline at the edge of panes, the header bar, the map card, the try-on bar and the form frame.",
+        "section": "colors"
+      },
+      {
+        "name": "The Touch Rule",
+        "body": "2700 K fills only something the visitor switches, selects or sends, including adding to and opening the request. If it does not change state or submit, it does not get an orange fill; inside drawn light 2700 K is light, not fill.",
+        "section": "colors"
+      },
+      {
+        "name": "The Rooms Not Boxes Rule",
+        "body": "Sections are separated by the chapter gap, the black of the cinematic scenes, the dusk and night fields and the veil, never by rules or dividers between sections. Hairlines between rows inside a list (map places, trade terms, files, estimate rows) are part of the list, not the page.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Oranienbaum speaks (names, headings, figures, statements); Onest explains and acts. No third face, no italics, no uppercase labels. Names that are capitals by nature (the language codes RU/EN, the map's МКАД and ТТК) are names, not labels.",
+        "section": "typography"
+      },
+      {
+        "name": "The Monument Rule",
+        "body": "The name is set whole, at full width, once at the top and once at the end, always drawn as filament. It is never cropped, wrapped or used as a texture; a longer `?brand=` name is set smaller so it still spans the screen.",
+        "section": "typography"
+      },
+      {
+        "name": "The Whole Glyph Rule",
+        "body": "Display type is set tight, so every GSAP SplitText call passes `charsClass`, `wordsClass` and `linesClass`. SplitText names its masks after those classes, and only then do the `.char-mask`, `.word-mask` and `.line-mask` paddings in styles.css (with equal negative margins) reach the masks and keep descenders, the bowl of «ь» and overshoots from being clipped. Masks inside headings and the hero title take `pointer-events: none`, because their padding reaches tens of pixels past a monument letter and once covered the hero switch.",
+        "section": "typography"
+      },
+      {
+        "name": "The Drawn Light Rule",
+        "body": "By the owner's request, glows, gradients, rays and animated lines are allowed, but only as light in its places: the StarBorder comet round the header call, the FilamentText name (hero, footer, 404) and the logo's filament initial, the dappled sun through leaves behind the dacha heading, the bulbs and wire of the process, the halos of lit projects on the map, the candela curve in the trade section, the glow round a lamp tried on in the product sheet, the torch under the pointer in the dark room, the LightRays cone over the request, the SideRays in the footer and the faint pool of light on the 404. They draw in filament and 2700 K (the process wire and the dimmer's track also reach #ff8a3d, and the dimmer's track runs to cool white because it is the colour-temperature scale itself), they never carry content, and the surfaces around them stay flat.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Single Scrim Rule",
+        "body": "Outside drawn light, a gradient is allowed only as a neutral darkening under text on footage, or as an alpha mask that lets a film or a row fade into the dark (the manifesto bulb, the vitrine's edges, the dappled light), never as colour or decoration.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** keep every ground flat soot (dusk for the dacha, night for the map, black for footage), with footage and drawn light supplying the light.",
+      "**Do** set the name, lamp names, prices, readouts and whatever is switched on in filament, and nothing structural.",
+      "**Do** ask with words in the story: a text link with a 2px line and an arrow, in filament.",
+      "**Do** reserve filled pills for switches, selections and the request; fill 2700 K only on what the visitor switches, selects or sends.",
+      "**Do** put panels on the flat `Pane`: soot at 88% with the 12% filament hairline.",
+      "**Do** draw the name with FilamentText and let it follow `?brand=`.",
+      "**Do** write every string as `t(ru, en)` and every price through `money()`.",
+      "**Do** mount every WebGL scene through `Lazy.jsx` and play every video through `playWhileOnScreen`.",
+      "**Do** pass `charsClass`, `wordsClass` and `linesClass` to every SplitText call, and keep masks inside headings at `pointer-events: none`.",
+      "**Do** use the lux curve (0.35, 0, 0, 1) for type and lines and the silk curve (0.16, 1, 0.3, 1) for pictures, pills and flights.",
+      "**Do** give each kind of content its one arrival, once per element.",
+      "**Do** show keyboard focus as the warm ring and halo, and give every control a 44px target on coarse pointers."
+    ],
+    "donts": [
+      "**Don't** add drop shadows, text shadows or coloured gradient washes to surfaces; outside drawn light the only gradient is the neutral scrim under text on the chandelier film or an alpha fade into the dark.",
+      "**Don't** bring back glass or backdrop blur; panels are flat.",
+      "**Don't** add drawn light outside its named places, or draw it in colours other than filament and 2700 K.",
+      "**Don't** let two videos play at once, or mount a WebGL scene outside `Lazy.jsx`.",
+      "**Don't** bring back a light plaster ground; the page, the form, the sheet and the menu are dark.",
+      "**Don't** draw borders, hairlines or dividers between sections.",
+      "**Don't** use square buttons or square chips; controls are pills.",
+      "**Don't** use filament or 2700 K as a resting background field or for body text.",
+      "**Don't** add a third typeface, italics, or uppercase tracked labels.",
+      "**Don't** fill a call to action that is not a switch, a selection or part of the request; the header call is a soot pill lit by its comet, the trade call a filament tint.",
+      "**Don't** add sound."
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+/* Polish: one focus language across the page, and touch targets that a thumb can hit.
+   Kept apart from styles.css so finishing passes do not disturb the layout rules. */
+
+/* focus: a warm ring only for the keyboard, with a soft halo; pills keep their round shape */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 6px; }
+:where(button, a, label, input, select, textarea):focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; box-shadow: 0 0 0 6px rgba(255, 173, 71, 0.18); }
+:where(.chip, .room-chip, .sheet-chip, .switch, .switch-cta, .hdr-cta, .sheet-add, .sheet-try-btn, .tr-cta, .made-btn, .cart-go, .kdial, .sm-toggle, .hdr-nav a, .sheet-close, .lmap-list button):focus-visible { border-radius: 999px; }
+:where(.vt-card button, .lmap-list button, .tr-files a):focus-visible { outline-offset: 6px; }
+.kdial:focus-within { outline: 2px solid var(--accent); outline-offset: 3px; }
+.kdial input:focus-visible { outline: none; box-shadow: none; }
+.lmap-dot:focus-visible { outline: none; }
+.lmap-dot:focus-visible .lmap-halo { opacity: 1; transform: scale(1.8); }
+.rq-input:focus-visible { outline: none; }
+:focus:not(:focus-visible) { outline: none; }
+
+/* touch: every control a finger can land on is at least 44px in both directions */
+@media (pointer: coarse) {
+  .hdr-nav a, .lmap-list button, .tr-files a { min-height: 44px; }
+  .room-chip, .sheet-chip, .chip { min-height: 44px; }
+  .cart-items button { width: 44px; height: 44px; }
+  .link { display: inline-flex; align-items: center; min-height: 44px; }
+}
+
+/* text never smaller than 13px on a phone, body copy comfortable to read */
+@media (max-width: 767px) {
+  body { -webkit-text-size-adjust: 100%; }
+  p { text-wrap: pretty; }
+}
+
+/* phone header: the mark, the language and the menu; the request is one tap away in the menu and at the foot */
+@media (max-width: 520px) {
+  .hdr-right > :has(.hdr-cta) { display: none !important; }
+}
+
+/* the sun through the leaves stays on the heading; the film of the house sits above it */
+.dacha-fx { height: min(70svh, 640px); }
+.dacha .scroll-expand { position: relative; z-index: 1; }
+@media (max-width: 767px) { .dacha-fx { height: 52svh; } }
+
+/* 404 */
+.nf { min-height: 100svh; display: grid; align-content: center; justify-items: center; gap: 20px; padding: 96px var(--m); text-align: center; background: radial-gradient(60% 50% at 50% 42%, rgba(255, 173, 71, 0.07), transparent 70%), var(--bg); }
+.nf-mark { position: absolute; top: 24px; left: var(--m); }
+.nf-num { width: min(72vw, 620px); height: auto; overflow: visible; }
+.nf-line { font-family: var(--font-display); font-size: var(--step-head); line-height: 1; color: var(--ink); }
+.nf-sub { max-width: 40ch; color: var(--muted); font-size: var(--step-body); }
+.nf-back { margin-top: 12px; display: inline-flex; align-items: center; min-height: 56px; padding: 0 30px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); text-decoration: none; font: 500 var(--step-body)/1 var(--font-text); }
+
+/* the mark hides on the first screen, but shows itself when the keyboard reaches it */
+.site-header.at-top .mark:focus-visible { opacity: 1; transform: none; pointer-events: auto; }
+
+/* the request basket steps aside while the menu is open, so it never sits on the menu's own links */
+.staggered-menu-wrapper[data-open] ~ .cart { opacity: 0 !important; visibility: hidden !important; transition: opacity 200ms ease, visibility 0s 200ms; }

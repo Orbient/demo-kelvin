@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.claude/
+.taste-skill/
+.impeccable/review/
+media-src/raw/
+media-src/unused-web/
+v1-static/
+.DS_Store
